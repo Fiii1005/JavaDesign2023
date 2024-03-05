@@ -1,0 +1,19 @@
+package helloworld;
+
+class Dog{
+	String name;
+	String says;
+	Dog(String n,String s){
+		name=n;
+		says=s;
+	}
+}
+
+public class E1 {
+	public static void main(String[] args) {
+		Dog d1=new Dog("spot","Ruff!");
+		Dog d2=new Dog("scruffy","Wurf!");
+		System.out.println("名字："+d1.name+" "+"叫声："+d1.says);
+		System.out.println("名字："+d2.name+" "+"叫声："+d2.says);
+	}
+}
